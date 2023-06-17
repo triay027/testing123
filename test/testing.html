@@ -11,41 +11,8 @@
         <h1 id ="headerID">Beauty of Birds</h1>     
           <button onclick="changeTheme()" id = "toggle">Toggle Theme</button>
       </header> 
-
-      <p>
-        <button onclick="display1()">Pardalote</button>
-        <button onclick="display2()">Purple Swamp Hen</button>
-        <button onclick="display3()">White-headed Stilt</button>
-        <button onclick="display4()">Inland Thornbill</button>
-        <button onclick="display5()">Rose Robin</button>
-      </p>
-
-      <p>
-        <img id="theImage" src="http://www.outgrabe.net/bird00.jpg"/>
-        <p id="displayText">Pardalote by fir0002 (CC-by-NC)</p>
-      </p>
       
         <script>
-          function display1(){
-            document.getElementById("displayText").innerHTML = "Pardalote by fir0002 (CC-by-NC)"
-            document.getElementById("theImage").src="http://www.outgrabe.net/bird00.jpg"
-          }
-          function display2(){
-            document.getElementById("displayText").innerHTML = "Purple swamp hen by Toby Hudson (CC-by-SA)"
-            document.getElementById("theImage").src="http://www.outgrabe.net/bird01.jpg"
-          }
-          function display3(){
-            document.getElementById("displayText").innerHTML = "White-headed Stilt by JJ Harrison (CC-by-SA)"
-            document.getElementById("theImage").src="http://www.outgrabe.net/bird02.jpg"
-          }
-          function display4(){
-            document.getElementById("displayText").innerHTML = "Inland Thornbill by Peter Jacobs (CC-by-SA)"
-            document.getElementById("theImage").src="http://www.outgrabe.net/bird03.jpg"
-          }
-          function display5(){
-            document.getElementById("displayText").innerHTML = "Rose Robin by JJ Harrison (CC-by-SA)"
-            document.getElementById("theImage").src="http://www.outgrabe.net/bird04.jpg"
-          }
           function changeTheme(){
             var currentTheme = document.documentElement.getAttribute("data-theme");
             var changeTheme = "light";
@@ -66,42 +33,11 @@
         </script> 
 
       <nav>    
-        <ul>    
-          <li><a href="#">Home</a></li>   
-          <li><a href="#">Our team</a></li>     
-          <li><a href="#">Projects</a></li>      
-          <li><a href="#">Contact</a></li>      
-        </ul>     
   
         <input type="text" id = "inp" name="user_name" placeholder="Enter your name!">        
         <button type="submit" onclick ="submitForm()">Apply!</button>      
           
       </nav>    
-
-      <main>
-        <article>   
-          <h2>Discovery of bird species</h2>     
-            <p>As of now there are more than 11,000 species of birds that have been discovered across the globe. As such, the tropic is a location home to various unique species such as the Golden bowerbird and Bridled honeyeater.  </p>     
-                                        
-          <h3>What do they eat?</h3>   
-            <p>In the vast majority of species, birds can contain a maintain a balanced diet; 90% eating insects and nectar, seed or fruit. However, in the case of carnivorous species; such as vultures, diets may</p>      
-           <p>primarily consist of remnants of deceased rodents, small mammals, reptiles etc. </p> 
-                                        
-          <h3>Where to find them!</h3>        
-           <p>As you are probably aware, birds are prominent in everywhere across the globe. As such, you can even find specific species of birds at locations such as conservation parks; where they are protected and cared for.   </p>       
-           <p>However, to recommend a location in the natural environment, the wetlands would be a great choice to go birdwatching. You could even opt in for a tour guide, another great exception if you really want! </p>    
-
-       </article>    
-         <aside>      
-          <h2>Related</h2>        
-            <ul>          
-              <li><a href="https://en.wikipedia.org/wiki/Bird">Learn more about birds</a></li>        
-              <li><a href="https://www.wires.org.au/wildlife-information/feeding-birds#:~:text=Most%20birds%20eat%20a%20balanced,this%20wouldn't%20happen%20naturally.">Why not to feed birds</a></li>      
-              <li><a href="https://southaustralia.com/travel-blog/bird-watching-see-more-than-450-species">Places to birdwatch in SA</a></li>     
-              <li><a href="https://www.rspcasa.org.au/adopt/birds/">Want to adopt a bird?</a></li>             
-            </ul>     
-        </aside>    
-      </main>    
         <footer>     
           <p>Â©Copyright 2050 by nobody. All rights reversed.</p>    
         </footer>  
