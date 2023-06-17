@@ -1,1 +1,24 @@
+<html>
+<head>
+    <script>
+        function ChangeImage(imageUrl, text){
+            var mainImage=document.getElementById('mainImage')
+            var takenby=document.getElementById('takenby')
 
+            mainImage.src = imageUrl;
+            takenby.innerText=text;
+        }
+
+    </script>
+</head>
+<body>
+    
+    <img id="mainImage" src="https://openverse.org/image/bc3938ee-5cdd-48f5-a808-a8d441904bd3?q=trees" alt="Default Image">
+    <p id="takenby">"Famous Japanese Garden Tree in Portland by Michael Matti" by Michael Matti is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/?ref=openverse.</p>
+    <button onclick="ChangeImage('https://openverse.org/image/e2049614-f186-4d07-819a-c96028b0d007?q=trees', 'Famous Japanese Garden Tree in Portland by Michael Matti')">Japanese Garden Tree</button>
+    <button onclick="ChangeImage('https://openverse.org/image/bc3938ee-5cdd-48f5-a808-a8d441904bd3?q=trees', 'Ceiba Tree by LollyKnit is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse')">Cebila Tree</button>
+    <button onclick="ChangeImage('https://openverse.org/image/f1230075-5ab6-45c3-a027-87bf0874a714?q=trees', 'Corfu - Sept 2005 - Ancient Olive Trees by Gareth1953 All Right Now is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse.')">Celiba Tree</button>
+    <button onclick="ChangeImage('https://openverse.org/image/b7313e95-498b-4917-9a2b-7fd50f072bfe?q=trees', 'Palm tree by F H Mira is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/?ref=openverse')">Palm Tree</button>
+    <button onclick="ChangeImage('https://openverse.org/image/752085e7-81bb-473c-a0fc-2f19fa977345?q=mangrove', 'Mangrove by Brisbane City Council is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse.')">ManGroves</button>
+</body>
+</html>
